@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> IBM Noobot </title>
+<link rel="icon" href="images/IBM_Watson_avatar.png" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"/>
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<link rel="stylesheet" href="/style/style.css" />
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <!--JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/index.js"></script>
+     <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+</head>
+<body id="lucca">
+    <div>
+        <ul class='navbarCRIA'>
+            <li><button class="quadradoD" onclick="home()">Home</button></li>
+            <li><button class="quadradoD" onclick="about()">About</button></li>
+        </ul>
+        <br/>
+        <div class="alinhamento">
+            <div id="info">
+                <h1> <img width="150px" height="150px" src="/images/IBM_Watson_avatar.png">
+                   <br/> -Powered By IBM Watson- </h1>
+							<p id="conteudo">Aqui você encontra como informações sobre o seu ThinkPad para utilizar no ambiente de trabalho além de respostas das dúvidas mais comuns do seu primeiro dia. Basta Peguntar ao Noobot ou ligue para o suporte pelo ramal 2500 ou leve seu ThinkPad até o ThinkDesk no segundo andar do edifício Tutóia.</p>
+            </div>
+        </div>
+    </div>
+<div class="container">
+    <div class="row">
+		<div class="chat_window">
+			<div class="top_menu">
+				<div class="title">
+                <!-- <img src="/public/images/chat.png" width="40px"/> -->
+                </div></div>
+					<ul class="messages"></ul>
+					<div class="bottom_wrapper clearfix">
+						<div class="message_input_wrapper">
+							<input class="message_input" id="chat" placeholder="Digite sua mensagem" />
+						</div>
+						<div class="send_message">
+								<div class="icon"></div>
+								<div class="text">Enviar</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<div class="message_template">
+		<li class="message">
+			<div class="avatar"></div>
+			<div class="text_wrapper">
+				<div class="text"></div>
+			</div>
+		</li>
+	</div>
+		<script src="app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</body>
+</html>
